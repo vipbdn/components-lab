@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand colors */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --color-secondary: #e5e7eb;
+  --color-secondary-hover: #d1d5db;
+
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+
+  /* General UI colors */
+  --color-text: #111827;
+  --color-surface: #ffffff;
+  --color-border: #d1d5db;
+
+  /* Disabled state */
+  --color-disabled: #9ca3af;
+}
+
+/* Register these variables as Tailwind color utilities */
+@theme {
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --color-secondary: #e5e7eb;
+  --color-secondary-hover: #d1d5db;
+
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+
+  --color-text: #111827;
+  --color-surface: #ffffff;
+  --color-border: #d1d5db;
+  --color-disabled: #9ca3af;
+}
