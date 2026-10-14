@@ -20,5 +20,3 @@ const ToastBadgePlayground = () => {
 };
 
 export default ToastBadgePlayground;
-
-ToastBadge;
